@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Karla:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        .item{
+            background-color: rgba(191, 139, 239, 0.333);
+            border: 3px solid rgb(4, 4, 4);
+            padding: 10px;
+
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            text-align: justify;
+
+        }
+
+        .container{
+            border: 3px solid rgb(4, 4, 4);
+            background-color: rgba(164, 226, 205, 0.652);
+            margin: auto;
+        }
+
+        h1,h3{
+            text-align: center;
+            font-family: 'Heebo', sans-serif;
+            
+        }
+
+        #fruits{
+            float: left;
+            width: 41%;
+            margin: 1% 2%;
+            
+        }
+
+        #computer{
+            float: right;
+            width: 49%;
+            margin: 1% 0%;
+        }
+
+        #pen{
+            clear: both;
+            margin: 1% 10%;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1> Aligning three sections using HTML and CSS</h1>
+        <section id="fruits" class="item">
+            <h3>Apple Fruit</h3>
+            <p id="fruitspara">
+                An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek, and European Christian tradition.
+            </p>
+        </section>
+
+        <section id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara">
+                A computer is a digital electronic machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically. Modern computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks. A computer system is a "complete" computer that includes the hardware, operating system (main software), and peripheral equipment needed and used for "full" operation. This term may also refer to a group of computers that are linked and function together, such as a computer network or computer cluster.
+            </p>
+        </section>
+
+        <section id="pen" class="item">
+            <h3>Pen</h3>
+            <p id="penpara">
+                A pen is a common writing instrument that applies ink to a surface, usually paper, for writing or drawing. Early pens such as reed pens, quill pens, dip pens and ruling pens held a small amount of ink on a nib or in a small void or cavity which had to be periodically recharged by dipping the tip of the pen into an inkwell. Today, such pens find only a small number of specialized uses, such as in illustration and calligraphy. Reed pens, quill pens and dip pens, which were used for writing, have been replaced by ballpoint pens, rollerball pens, fountain pens and felt or ceramic tip pens. Ruling pens, which were used for technical drawing and cartography, have been replaced by technical pens such as the Rapidograph. All of these modern pens contain internal ink reservoirs, such that they do not need to be dipped in ink while writing.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
