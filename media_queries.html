@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            height: 100vh;
+        }
+
+        .container h1{
+            text-align: center;
+        }
+        .box{
+            border: 2px solid black;
+            text-align: center;
+            display: none;
+        }
+
+        @media (max-width : 426px) {
+            #box-1{
+                display: block;
+            }
+        }
+
+        @media (min-width : 426px) and (max-width : 768px){
+            #box-2{
+                display: block;
+            }
+        }
+
+        @media (min-width : 769px) and (max-width : 1024px){
+            #box-3{
+                display: block;
+            }
+        }
+
+        @media (min-width : 1025px){
+            #box-4{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To make a responsive website</h1>
+        <div class="box" id="box-1">This is iPhone 12 Pro</div>
+        <div class="box" id="box-2">This is iPad Mini</div>
+        <div class="box" id="box-3">This is laptop</div>
+        <div class="box" id="box-4">Thi is desktop</div>
+    </div>
+</body>
+</html>
