@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in Js</title>
+    
+</head>
+<style>
+    .container{
+        display: block;
+    }
+</style>
+<body>
+    <div id="container">
+        <h1>This is heading</h1>
+        <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga sit minus modi amet voluptatem harum iste hic laudantium? Ad, recusandae! Ipsum dolores mollitia perferendis a sequi earum ducimus fuga. Eligendi corrupti dolorem voluptas quo error, obcaecati temporibus aspernatur deserunt praesentium delectus quis consequatur numquam inventore sunt nulla tenetur! Eveniet, velit maxime dolores provident unde exercitationem iure doloribus, accusantium nesciunt repudiandae, veritatis omnis sit sunt minima quod animi libero delectus nisi alias a ipsam? Sunt repellat aspernatur dolorum reiciendis dolorem numquam voluptatibus repudiandae doloribus praesentium neque similique officia id doloremque, rem sint aliquid magnam debitis accusantium quidem deserunt amet? Exercitationem corporis ipsum facere omnis impedit dolorum, deleniti excepturi sunt voluptatibus vel labore ab expedita reiciendis inventore harum accusamus. Quis odit optio autem veritatis nulla necessitatibus dicta, nostrum hic cum, illo dolores ea voluptate ad magni sequi at excepturi temporibus eaque totam ratione quidem! Qui in quidem unde accusantium! Quasi fugit modi blanditiis hic nisi sint, aspernatur neque dolor consequuntur, laboriosam repellendus esse in accusantium beatae, veniam at magni. Numquam beatae dolores quod exercitationem commodi perferendis sapiente tempora aut impedit assumenda, laudantium distinctio omnis voluptas a quis velit enim deserunt adipisci voluptatum, officiis debitis hic unde quae laboriosam. Autem quos doloribus nemo, esse officiis iusto quam molestias hic consequuntur suscipit unde, natus illum quae ratione accusantium? Error aperiam mollitia delectus. Repellendus deleniti earum eius, magni neque, nisi adipisci aspernatur omnis sunt quidem eveniet reiciendis quaerat molestiae sint fugiat ut harum minus tempore quod quo vero suscipit consequatur? Sapiente optio, reprehenderit magnam aliquid maiores architecto voluptas delectus quam sit asperiores distinctio assumenda eius cum amet ipsum! Praesentium, deleniti adipisci dolorum, dolores inventore possimus alias nisi ad quia veniam, soluta dicta excepturi modi atque saepe! Doloribus, architecto deleniti quae fugit nulla dicta quidem sapiente quos enim possimus! Atque obcaecati dicta corrupti ullam laudantium reiciendis maiores saepe quas soluta, cumque quisquam quibusdam et pariatur ipsa consectetur beatae voluptas vel veritatis impedit aliquid distinctio illum. Totam nam necessitatibus accusamus, minus ullam, blanditiis, deleniti neque architecto tempora doloremque voluptatibus atque quia.</p>
+
+        
+    </div>
+
+    <button id="btn" onclick="toggleHide()"> Click to show/hide</button>
+
+</body>
+<script>
+        function toggleHide()
+        {
+            //let btn = document.getElementById('btn');
+            let para = document.getElementById('container');
+
+            if(para.style.display != 'none')
+            {
+                para.style.display = 'none';
+            }
+            else{
+                para.style.display = 'block';
+            }
+        }
+</script>
+</html>
